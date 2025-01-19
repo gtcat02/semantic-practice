@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>semantics</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navigation">
+      <a class="navigation__logo" href="#">
+        <img class="navigation__image" src="./images/logo.png" alt="Логотип">
+      </a>
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#about">О нас</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#prices">Тарифы</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#video">Блог</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#contacts">Контакты</a>
+        </li>
+      </ul>
+      <a class="navigation__number" href="tel:666">+213-856-896</a>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="promo">
+      <div class="container">
+        <h1 class="promo__title">Прыжок с парашютом</h1>
+        <p class="promo__sub-title">Покори свой страх</p>
+        <a class="promo__button" href="#prices">Забронировать прыжок</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="title">О нас</h2>
+        <b class="about__sub-title">Это лучшее место для прыжков с парашютом вообще, и уж точно лучшее - для самого
+          первого прыжка с парашютом.
+        </b>
+        <ul class="about__list">
+          <li class="about__item">
+            <h3 class="about__item-title">5</h3>
+            <p class="about__item-description">лет опыта работы</p>
+          </li>
+          <li class="about__item">
+            <h3 class="about__item-title">900</h3>
+            <p class="about__item-description">довольных клиентов</p>
+          </li>
+          <li class="about__item">
+            <h3 class="about__item-title">5000+</h3>
+            <p class="about__item-description">успешных прыжков</p>
+          </li>
+        </ul>
+        <p class="about__text">Основная область деятельности аэроклуба - подготовка спортсменов-парашютистов,
+          как начального уровня (программа AFF), так и опытных скайдайверов в рамках
+          основных дисциплин парашютного спорта: групповая акробатика, формации,
+          вингсьют, артистические виды: фрифлай, фристайл и скайсерфинг, а также
+          воздушных фото-видео операторов.  
+        </p>
+        <p class="about__text">Прыжок, совершенный у нас, будет безопасен и оставит неизгладимые впечатления,
+          т.к. здесь вас ждут: высококвалифицированные инструкторы и пилоты, удобное
+          оборудование и современная техника. Среди наших инструкторов - чемпионы мира и
+          Европы, известные мастера парашютного спорта, которые, кроме всего прочего,
+          просто замечательные, добрые и интересные люди. Вам уже захотелось приехать к
+          нам?
+        </p>
+      </div>
+    </section>
+    <section class="prices" id="prices">
+      <div class="container">
+        <h2 class="title">Тарифы</h2>
+        <b class="prices__sub-title">Нырнуть в небеса, прочувствовать свободный полет, испытать волнение, адреналин,
+          экстрим, и, в то же время, силу и уверенность
+        </b>
+        <div class="prices__container">
+          <div class="prices__card">
+            <h3 class="prices__card-title">Индивидуальный прыжок</h3>
+            <ol class="prices__list">
+              <li class="prices__list-item">Теоретический инструктаж</li>
+              <li class="prices__list-item">Страховка</li>
+              <li class="prices__list-item">Аренда оборудования</li>
+              <li class="prices__list-item">Прыжок с 2000 м</li>
+              <li class="prices__list-item">Сертификат</li>
+            </ol> 
+            <p class="prices__value prices__value--bottom">20000</p>
+            <a class="prices__button" href="#">Забронировать</a>
+          </div>
+          <div class="prices__card">
+            <h3 class="prices__card-title">Прыжок с инструктором</h3>
+            <ol class="prices__list">
+              <li class="prices__list-item">Теоретический инструктаж</li>
+              <li class="prices__list-item">Страховка</li>
+              <li class="prices__list-item">Аренда оборудования</li>
+              <li class="prices__list-item">Прыжок с инструктором</li>
+              <li class="prices__list-item">Сертификат</li>
+            </ol> 
+            <p class="prices__value">30000</p>
+            <a class="prices__button" href="#">Забронировать</a>
+          </div>
+          <div class="prices__card">
+            <h3 class="prices__card-title">Абонемент на 10 прыжков</h3>
+            <ol class="prices__list">
+              <li class="prices__list-item">Теоретический инструктаж</li>
+              <li class="prices__list-item">Страховка</li>
+              <li class="prices__list-item">Аренда оборудования</li>
+              <li class="prices__list-item">10 индивидуальных прыжков</li>
+              <li class="prices__list-item">Сертификат</li>
+            </ol> 
+            <p class="prices__value">180000</p>
+            <a class="prices__button" href="#">Забронировать</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video" id="video">
+      <div class="container">
+        <h2 class="title title--hidden">Видео</h2>
+        <video class="video__module" poster="#" controls>
+          <source src="#">
+        </video>
+      </div>
+    </section>
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="title">Отзывы</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <blockquote class="blockquote">
+              <img class="blockquote__image" src="./images/chelik1.jpeg" alt="Фотография">
+              <cite class="blockquote__author">Алла Антоненко</cite>
+              <time class="blockquote__time" datetime="2021-04-20">20.04.2021</time>
+              <p class="blockquote__text">Невероятные чувства восторга, страха, радости, счастья! испытать
+                себя, подарить себе заряд адреналина - вот что значит прыжок с
+                парашютом! Незабываемые впечатления! Теперь хочется только повторять и повторять!
+              </p>
+            </blockquote>
+          </li>
+          <li class="reviews__item">
+            <blockquote class="blockquote">
+              <img class="blockquote__image" src="./images/chelik2.jpeg" alt="Фотография">
+              <cite class="blockquote__author">Максим Влащенко</cite>
+              <time class="blockquote__time" datetime="2021-04-20">20.04.2021</time>
+              <p class="blockquote__text">
+                Мечты сбываются! Мой первый прыжок с парашютом в тандеме. Прыжок,
+                после которого, хочется еще и еще.
+              </p>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="filming">
+      <div class="container">
+        <h2 class="title">Видеосъемка</h2>
+        <b class="filming__sub-title">Впечатления, которые остануться с Вами навсегда</b>
+        <table class="filming__table">
+          <tr class="filming__tr">
+            <th class="filming__th">Услуга</th>
+            <th class="filming__th">Стоимость</th>
+            <th class="filming__th">Длительность</th>
+          </tr>
+          <tr class="filming__tr">
+            <td class="filming__text">
+              <b>Видео + фото (USB Flash)</b>
+              Производится профессиональным видеооператором
+            </td>
+            <td class="filming__number">2000</td>
+            <td class="filming__number">5 мин</td>
+          </tr>
+          <tr class="filming__tr">
+            <td class="filming__text">
+              <b>Камера GoPro</b>
+              Съемка ведется с руки тандем-мастера
+            </td>
+            <td class="filming__number">1000</td>
+            <td class="filming__number">10 мин</td>
+          </tr>
+          <tr class="filming__tr">
+            <td class="filming__text">
+              <b>Персональный видео монтаж</b>
+              В течении недели вам делается персональный монтаж с учетом всех ваших пожеланий
+            </td>
+            <td class="filming__number">1000</td>
+            <td class="filming__number">10 мин</td>
+          </tr>
+        </table>
+        <a class="filming__button" href="#">Заказать видео</a>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <h2 class="title">Блог</h2>
+        <article class="blog-article">
+          <img class="blog-article__image" src="./images/news1.jpg" alt="Фото новости">
+          <h3 class="blog-article__title">Чемпионат России по классическому парашютизму</h3>
+        </article>
+        <article class="blog-article">
+          <img class="blog-article__image" src="./images/news2.jpg" alt="Фото новости">
+          <h3 class="blog-article__title">Занятия по технике укладки парашютов</h3>
+        </article>
+        <article class="blog-article">
+          <img class="blog-article__image" src="./images/news3.jpg" alt="Фото новости">
+          <h3 class="blog-article__title">Полеты на самолетах малой авиации</h3>
+        </article>
+        <article class="blog-article">
+          <img class="blog-article__image" src="./images/news4.jpg" alt="Фото новости">
+          <h3 class="blog-article__title">Прыжки в тендеме каждую субботу</h3>
+        </article>
+        <a class="blog-article__button" href="#">Больше новостей</a>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="container">
+        <h2 class="title">Нужна консультация?</h2>
+        <p class="feedback__sub-title">Заполнить форму и наш менеджер свяжется с Вами в ближайшее время</p>
+        <form class="feedback__form" action="#">
+          <input class="feedback__form-input" type="text" placeholder="Имя">
+          <input class="feedback__form-input" type="tel" placeholder="Телефон">
+          <input class="feedback__form-input" type="text" placeholder="Ваш вопрос">
+          <input class="feedback__form-button" type="submit" value="Отправить">
+        </form>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <h2 class="title">Контакты</h2>
+        <address class="contacts__address">г. Москва, ул. Дубининская 6</address>
+        <img class="contacts__map" src="./images/map.jpg" alt="Адрес со спутника">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+    <p class="footer__copyright">2004-2025 - Московский аэроклуб им. В.С. Гризодубовой ОСОУ</p>
+    </div>
+  </footer>
+</body>
+</html>
